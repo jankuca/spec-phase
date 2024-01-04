@@ -1,6 +1,6 @@
 {
   "name": "spec-phase",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Phased unit test definition: given() { setup }, perform { task }, expect { assert }",
   "main": "dist/spec.js",
   "scripts": {
