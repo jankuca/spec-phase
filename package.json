@@ -1,0 +1,35 @@
+{
+  "name": "spec-phase",
+  "version": "1.0.0",
+  "description": "Phased unit test definition: given() { setup }, perform { task }, expect { assert }",
+  "main": "dist/spec.js",
+  "scripts": {
+    "prepublish": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jankuca/spec-phase.git"
+  },
+  "keywords": [
+    "queue",
+    "tasks",
+    "jobs",
+    "retry"
+  ],
+  "author": "Jan Kuča",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jankuca/spec-phase/issues"
+  },
+  "homepage": "https://github.com/jankuca/spec-phase#readme",
+  "devDependencies": {
+    "@babel/core": "^7.23.7",
+    "@babel/preset-env": "^7.23.7",
+    "@babel/preset-typescript": "^7.23.3",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3"
+  }
+}

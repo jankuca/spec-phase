@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "strict": true,
+    "alwaysStrict": true,
+    "lib": ["ESNext"],
+    "module": "commonjs",
+    "target": "esnext",
+    "moduleResolution": "node"
+  }
+}
